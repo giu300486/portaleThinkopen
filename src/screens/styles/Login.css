@@ -1,0 +1,86 @@
+.global-wrapper{
+    display: flex;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    flex-direction: row;
+}
+.logo-wrapper{
+    display: flex;
+    /*background-image: url("../../assets/img_3h-copia-18.jpg");*/
+    background-color:#262626;
+    height: 100%;
+    width: 35%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.login-wrapper{
+    display: flex;
+    height: 100%;
+    width: 65%;
+    background-color: #f6f6f6;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login-container{
+    background-color: #fff;
+    display: flex;
+    height: 70%;
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.textTitle{
+    padding-left: 20px;
+    font-size: 35px;
+    color: #262626;
+    line-height: 1;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+.textSubTitle{
+    padding-left: 20px;
+    margin-top: -3%;
+    margin-bottom: 5%;
+    font-size: 15px;
+    color: #a8a8a8;
+    line-height: 1;
+    font-family: sans-serif;
+    font-style: normal;
+  }
+
+.loginButton{
+    width: 70% !important;
+    height: 50px !important;
+    background-color: #fff !important;
+    border-color: #262626 !important;
+}
+
+.logoTitle{
+    color: #fff !important;
+    font-size: 20px;
+    margin-top: 2%;
+}
+@media screen and (max-width: 850px){
+    .global-wrapper{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo-wrapper{
+        height: 25%;
+        width: 100%;
+    }
+    .login-wrapper{
+        width: 100%;
+    }
+    .login-container{
+        width: 90%;
+    }
+}
